@@ -22,21 +22,36 @@ article, aside, details, figcaption, figure, footer, header, main, nav, section,
 
 	}
 }
-.accordian-headers{
-	height: 60px;
+.accordian-headers {
+	height: 80px;
 	display: flex;
 	align-items: center;
-	background-color: gray;
+	background-color: #708777;
 	margin:10px auto;
-	color: white;
+	color: #d7d2ce;
 	padding: 0 20px;
 	justify-content: space-between;
-}
-.toggle-indicator{
+	font-family: 'Mountains of Christmas', cursive;
 	font-size: 40px;
 }
-.accordian-description{
+.toggle-indicator {
+	font-size: 40px;
+	color: #8f5d56;
+	font-weight: bold;
+}
+.accordian-description {
 	height: 0;
-	background-color: lightgrey;
+	background-color:#bdb09f;
 	overflow: hidden;
+	transition: height 1s;
+	color:#8f5d56;
+	font-size: 30px;
+}
+.accordian-open{
+	height:100px;
+	padding: 5px 2px;
+}
+body{
+	background: url('images/winter.png');
+	background-size: cover;
 }
