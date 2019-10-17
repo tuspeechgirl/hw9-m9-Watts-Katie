@@ -7,3 +7,36 @@
 article, aside, details, figcaption, figure, footer, header, main, nav, section, summary {
     display:block;
 }
+#accordian{
+
+	width:95%;
+	margin:auto;
+	margin-top: 100px;
+}
+
+
+@media (min-width: 760px) {
+	#accordian{
+		width: 60%;
+
+
+	}
+}
+.accordian-headers{
+	height: 60px;
+	display: flex;
+	align-items: center;
+	background-color: gray;
+	margin:10px auto;
+	color: white;
+	padding: 0 20px;
+	justify-content: space-between;
+}
+.toggle-indicator{
+	font-size: 40px;
+}
+.accordian-description{
+	height: 0;
+	background-color: lightgrey;
+	overflow: hidden;
+}
